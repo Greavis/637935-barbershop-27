@@ -1,12 +1,143 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
-  </head>
-  <body>
+  <meta charset="utf-8">
+  <title>HTML Academy: Барбершоп</title>
+</head>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+<body>
+  <header>
+    <nav>
+      <img src="https://via.placeholder.com/371x155" alt="Логотип барбершопа Borodinski">
+      <ul>
+        <li><a href="">Информация</a></li>
+        <li><a href="">Новости</a></li>
+        <li><a href="">Прайс-лист</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+      <ul>
+        <li>
+          <span>Войти</span>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-  </body>
-</html>
+  <main>
+    <h1 class="visually-hidden">Барбершоп "Бородински"</h1>
+
+    <section class="forwards">
+      <h2 class="visually-hidden">Преимущества</h2>
+      <ul class="forward-list">
+        <li>
+          <h3>Быстро</h3>
+          <p>
+            МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+          </p>
+        </li>
+        <li>
+          <h3>Круто</h3>
+          <p>
+            ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+          </p>
+        </li>
+        <li>
+          <h3>Дорого</h3>
+          <p>
+            НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕННЫЙ СТАТУС?
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="news">
+      <h2>Новости</h2>
+      <ul class="latest-news">
+        <li>
+          <p>
+            НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+          </p>
+          <time datetime="2019-01-11">11 января</time>
+        </li>
+        <li>
+          <p>
+            В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+          </p>
+          <time datetime="2019-01-18">18 января</time>
+        </li>
+        <li>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis corporis voluptatum aliquam excepturi, laudantium id omnis, tenetur quidem et assumenda magnam maiores. Fugiat saepe optio, explicabo minima ipsum quibusdam obcaecati?
+          </p>
+          <time datetime="2020-01-24">24 января</time>
+        </li>
+      </ul>
+      <a class="button" href="">Все новости</a>
+    </section>
+
+    <section class="galery">
+      <h2>Фотогалерея</h2>
+      <figure>
+        <a href=""><img src="https://via.placeholder.com/328x164" width="328" height="164" alt="интерьер барбершопа"></a>
+        <span>Вперед</span>
+        <span>Назад</span>
+      </figure>
+    </section>
+
+    <section class="contacts">
+      <h2>Контактная информация</h2>
+      <p>
+        БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+        ТЕЛЕФОН: +7 (495) 666-02-66
+      </p>
+      <p>
+        ВРЕМЯ РАБОТЫ:<br>
+        ПН—ПТ: С 10:00 ДО 22:00<br>
+        СБ—ВС: С 10:00 ДО 19:00
+      </p>
+      <a class="button" href="">Как проехать</a>
+      <a class="button" href="">Обратная связь</a>
+    </section>
+
+    <section class="sign-up">
+      <h2>Записаться</h2>
+      <p>
+        УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ<br>
+        С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+      </p>
+      <!--      Тут будет форма-->
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p class="footer-contacts">
+      БАРБЕРШОП «БОРОДИНСКИЙ» <br>
+      АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
+      <a href="">КАК НАС НАЙТИ?</a><br>
+      ТЕЛЕФОН: +7 (495) 666-02-66
+    </p>
+
+    <div class="footer-social">
+      <b>Давайте дружить!</b>
+      <ul>
+        <li><a href="" class="footer-social">Вконтакте</a></li>
+        <li><a href="" class="footer-social">Фейсбук</a></li>
+        <li><a href="" class="footer-social">Инстаграмм</a></li>
+      </ul>
+    </div>
+
+    <p>
+      <b>Разработано:</b>
+      <a href="https://htmlacademy.ru/" class="button">HTML ACADEMY</a>
+    </p>
+  </footer>
+
+  <section class="modal modal-login">
+    <h2>Личный кабинет</h2>
+    <p>Введите свой логин и пароль.</p>
+    <!--    Здесь будет форма-->
+    <span class="modal-close">x</span>
+  </section>
+</body></html>
